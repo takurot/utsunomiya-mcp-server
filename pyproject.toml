@@ -18,4 +18,7 @@ dependencies = [
 ]
 
 [project.scripts]
-utsunomiya-mcp = "server:main"
+utsunomiya-mcp = "utsunomiya_mcp.server:main"
+
+[tool.setuptools.package-data]
+utsunomiya_mcp = ["catalog.json"]

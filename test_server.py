@@ -3,7 +3,7 @@ Test script for Utsunomiya Open Data MCP Server
 """
 import asyncio
 import json
-from server import list_datasets, get_dataset_schema, query_dataset, analyze_dataset
+from utsunomiya_mcp.server import load_dataset, analyze_dataset, query_dataset, analyze_dataset
 
 async def test_server_functions():
     print("Testing Utsunomiya Open Data MCP Server functions...")
