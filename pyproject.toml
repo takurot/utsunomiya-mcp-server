@@ -8,6 +8,15 @@ version = "0.1.0"
 description = "MCP Server for Utsunomiya Open Data"
 readme = "README.md"
 requires-python = ">=3.10"
+authors = [
+    {name = "takurot", email = "highspeeddigital@gmail.com"}
+]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
 dependencies = [
     "mcp>=1.0.0",
     "fastmcp>=0.1.0",
@@ -16,6 +25,13 @@ dependencies = [
     "chardet>=5.0.0",
     "pydantic>=2.0.0"
 ]
+
+[project.urls]
+Homepage = "https://github.com/takurot/utsunomiya-mcp-server"
+Bug_Tracker = "https://github.com/takurot/utsunomiya-mcp-server/issues"
+
+[tool.setuptools]
+packages = ["utsunomiya_mcp"]
 
 [project.scripts]
 utsunomiya-mcp = "utsunomiya_mcp.server:main"

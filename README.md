@@ -12,8 +12,38 @@ This is an MCP (Model Context Protocol) server that provides access to Utsunomiy
 
 ## Setup
 
-1. Install dependencies: `pip install -e .`
-2. Run the server: `python -m utsunomiya_mcp`
+1. Install via pip: `pip install utsunomiya-mcp-server`
+2. Run directly: `utsunomiya-mcp`
+
+### Usage with Claude Desktop
+
+Add the following configuration to your `claude_desktop_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "utsunomiya-open-data": {
+      "command": "uvx",
+      "args": [
+        "utsunomiya-mcp-server"
+      ]
+    }
+  }
+}
+```
+
+Or if you installed it via pip in a specific environment:
+
+```json
+{
+  "mcpServers": {
+    "utsunomiya-open-data": {
+      "command": "utsunomiya-mcp",
+      "args": []
+    }
+  }
+}
+```
 
 ## Usage
 

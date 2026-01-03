@@ -10,3 +10,4 @@ build/
 test_data.csv
 repro_*.py
 verify_*.py
+._*
