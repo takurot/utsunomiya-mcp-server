@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "utsunomiya-mcp-server"
+version = "0.1.0"
+description = "MCP Server for Utsunomiya Open Data"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.0.0",
+    "fastmcp>=0.1.0",
+    "pandas>=2.0.0",
+    "requests>=2.31.0",
+    "chardet>=5.0.0",
+    "pydantic>=2.0.0"
+]
+
+[project.scripts]
+utsunomiya-mcp = "server:main"

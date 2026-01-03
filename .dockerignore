@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pkl
+*.pyc
+.git/
+.DS_Store
+test_data.csv
+repro_*.py
+verify_*.py

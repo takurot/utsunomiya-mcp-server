@@ -1,0 +1,19 @@
+{
+  "datasets": [
+    {
+      "id": "population_2024",
+      "name": "町丁別世帯数及び人口 (Town-by-town Households and Population)",
+      "url": "https://catalog.city.utsunomiya.tochigi.jp/dataset/0de68b44-5d0c-441f-bb06-36fff8810b40/resource/488ed489-c5aa-4872-b3cb-0c989cb55b71/download/092011_population_by_town_name_20240331.csv",
+      "format": "csv",
+      "description": "宇都宮市の各町丁ごとの人口と世帯数データ (Population and household data by town area in Utsunomiya city) 2024年3月末時点"
+    },
+    {
+      "id": "evacuation_sites",
+      "name": "指定緊急避難場所 (Designated Emergency Evacuation Sites)",
+      "url": "https://catalog.city.utsunomiya.tochigi.jp/dataset/4d41b0e3-b48a-4079-8896-7de6f6f1a850/resource/ab7c2ca6-9ce3-409a-947b-4744fcfec7c6/download/092011_evacuation_space.csv",
+      "format": "csv",
+      "encoding": "cp932",
+      "description": "災害時の避難場所リスト、住所、対応災害種別 (Evacuation site list, addresses, and disaster types for emergencies)"
+    }
+  ]
+}
