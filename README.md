@@ -25,7 +25,9 @@ Add the following configuration to your `claude_desktop_config.json`:
     "utsunomiya-open-data": {
       "command": "uvx",
       "args": [
-        "utsunomiya-mcp-server"
+        "--from",
+        "utsunomiya-mcp-server",
+        "utsunomiya-mcp"
       ]
     }
   }
